@@ -14,11 +14,11 @@
     "test:update-snapshots": "jest -c jest.config.js --updateSnapshot"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.4.3",
-    "@emotion/react": "^11.10.8",
-    "@emotion/styled": "^11.10.5",
+    "@chakra-ui/react": "^2.7.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
     "envalid": "^7.3.1",
-    "framer-motion": "^10.0.1",
+    "framer-motion": "^10.12.17",
     "next": "^13.4.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
