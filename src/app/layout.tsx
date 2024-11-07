@@ -1,4 +1,4 @@
-import Providers from 'app/providers'
+import Providers from '@/app/providers'
 
 interface RootLayoutProps {
   children: React.ReactNode
