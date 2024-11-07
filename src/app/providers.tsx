@@ -2,18 +2,14 @@
 
 import { ChakraProvider } from '@chakra-ui/react'
 
-import theme from 'theme'
+import system from 'theme'
 
 interface ProvidersProps {
   children: React.ReactNode
 }
 
 const Providers: React.FC<ProvidersProps> = ({ children }) => {
-  return (
-    <ChakraProvider resetCSS theme={theme}>
-      {children}
-    </ChakraProvider>
-  )
+  return <ChakraProvider value={system}>{children}</ChakraProvider>
 }
 
 export default Providers
